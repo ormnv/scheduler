@@ -1,10 +1,4 @@
-
-Olga Romanova
-Operating Systems    
-Spring 2013 
-Lab 2 - Scheduler 
-
-The scheduler lab assignment was written in Java and consists of the SchedulerM (the main) and objects Scheduler and Process. 
+The scheduler lab assignment was written in Java and consists of the SchedulerM (the main) and objects Scheduler and Process. The program tests three process scheduling algorithms: first come first serve, round robin, and shortest time remaining. A process is identified by four integers, representing Process ID, CPU time, I/O time and Arrival time respectively. The convention for process IDs is to start with 0 and be numbered sequentially. A test input is included (scheduler_in.txt). The output shows the state of processes at each clock cycle and statistics about the length of time to finish all processes. The output file has the name of the input file followed by 1, 2 or 3 representing the selected scheduling algorithm. 
 
 To run the program, compile with javac
 
